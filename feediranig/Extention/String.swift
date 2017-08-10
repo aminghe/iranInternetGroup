@@ -10,10 +10,7 @@ import Foundation
 extension String {
 
     func toDate() -> String {
-
-        
         let currentDate = Date()
-        
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSX"
         dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
@@ -33,11 +30,5 @@ extension String {
         }else{
             return "\(components.month!) ماه پیش "
         }
-        
-    
     }
-    
-
-
-
 }

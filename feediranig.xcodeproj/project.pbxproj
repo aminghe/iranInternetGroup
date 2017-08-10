@@ -28,7 +28,7 @@
 		271F57571F3B118F0040F292 /* network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57541F3B118F0040F292 /* network.swift */; };
 		271F575A1F3B119A0040F292 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57581F3B119A0040F292 /* Message.swift */; };
 		271F575B1F3B119A0040F292 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271F57591F3B119A0040F292 /* View.xib */; };
-		271F575E1F3B12E10040F292 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F575D1F3B12E10040F292 /* UILabel.swift */; };
+		271F575E1F3B12E10040F292 /* IUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F575D1F3B12E10040F292 /* IUILabel.swift */; };
 		271F57601F3B17A80040F292 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F575F1F3B17A80040F292 /* FeedModel.swift */; };
 		271F57641F3B6BCD0040F292 /* tableViewFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57631F3B6BCD0040F292 /* tableViewFeedViewController.swift */; };
 		271F57671F3B6C520040F292 /* requestFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57661F3B6C520040F292 /* requestFeedViewController.swift */; };
@@ -38,6 +38,7 @@
 		271F57791F3C1BBC0040F292 /* collectionViewSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57781F3C1BBC0040F292 /* collectionViewSetting.swift */; };
 		271F577C1F3C1C710040F292 /* modelSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F577B1F3C1C710040F292 /* modelSetting.swift */; };
 		271F57851F3C2CCA0040F292 /* Coredata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57841F3C2CCA0040F292 /* Coredata.swift */; };
+		271F57871F3C84760040F292 /* IUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57861F3C84750040F292 /* IUIImageView.swift */; };
 		8D1D26375233A00DC87CBDA7 /* Pods_feediranig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90943F036E0839136D6BFC86 /* Pods_feediranig.framework */; };
 		9132C45D0D0D71BB7593A026 /* Pods_feediranigUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A18F20F108B8AC09B22579 /* Pods_feediranigUITests.framework */; };
 /* End PBXBuildFile section */
@@ -89,7 +90,7 @@
 		271F57541F3B118F0040F292 /* network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = network.swift; path = Class/http/network.swift; sourceTree = "<group>"; };
 		271F57581F3B119A0040F292 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Class/Message/Message.swift; sourceTree = "<group>"; };
 		271F57591F3B119A0040F292 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View.xib; path = Class/Message/View.xib; sourceTree = "<group>"; };
-		271F575D1F3B12E10040F292 /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = IBDesignable/UILabel.swift; sourceTree = "<group>"; };
+		271F575D1F3B12E10040F292 /* IUILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IUILabel.swift; path = IBDesignable/IUILabel.swift; sourceTree = "<group>"; };
 		271F575F1F3B17A80040F292 /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedModel.swift; path = Controller/Feed/Model/FeedModel.swift; sourceTree = "<group>"; };
 		271F57631F3B6BCD0040F292 /* tableViewFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tableViewFeedViewController.swift; path = Controller/Feed/tableView/tableViewFeedViewController.swift; sourceTree = "<group>"; };
 		271F57661F3B6C520040F292 /* requestFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = requestFeedViewController.swift; path = Controller/Feed/request/requestFeedViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		271F57781F3C1BBC0040F292 /* collectionViewSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = collectionViewSetting.swift; path = Controller/Setting/collectionView/collectionViewSetting.swift; sourceTree = "<group>"; };
 		271F577B1F3C1C710040F292 /* modelSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = modelSetting.swift; path = Controller/Setting/Model/modelSetting.swift; sourceTree = "<group>"; };
 		271F57841F3C2CCA0040F292 /* Coredata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coredata.swift; path = Class/Coredata.swift; sourceTree = "<group>"; };
+		271F57861F3C84750040F292 /* IUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IUIImageView.swift; path = IBDesignable/IUIImageView.swift; sourceTree = "<group>"; };
 		2F2B01677E8F2ACB1752F032 /* Pods-feediranigUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feediranigUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feediranigUITests/Pods-feediranigUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5171E3961B4A3CE25B1A85BE /* Pods-feediranig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feediranig.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feediranig/Pods-feediranig.debug.xcconfig"; sourceTree = "<group>"; };
 		8720DFC85AC6F5F7998C5C1E /* Pods-feediranigTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-feediranigTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-feediranigTests/Pods-feediranigTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -299,7 +301,8 @@
 		271F575C1F3B12CA0040F292 /* IBDesignable */ = {
 			isa = PBXGroup;
 			children = (
-				271F575D1F3B12E10040F292 /* UILabel.swift */,
+				271F575D1F3B12E10040F292 /* IUILabel.swift */,
+				271F57861F3C84750040F292 /* IUIImageView.swift */,
 			);
 			name = IBDesignable;
 			sourceTree = "<group>";
@@ -665,7 +668,7 @@
 			files = (
 				271F57331F3A668E0040F292 /* VaribleProject.swift in Sources */,
 				271F57461F3AFD800040F292 /* UIColor.swift in Sources */,
-				271F575E1F3B12E10040F292 /* UILabel.swift in Sources */,
+				271F575E1F3B12E10040F292 /* IUILabel.swift in Sources */,
 				271F57441F3AC7520040F292 /* FeedTableViewCell.swift in Sources */,
 				271F57301F3A65080040F292 /* UIImageView.swift in Sources */,
 				271F576D1F3C17E80040F292 /* SettingViewController.swift in Sources */,
@@ -682,6 +685,7 @@
 				271F57851F3C2CCA0040F292 /* Coredata.swift in Sources */,
 				271F57571F3B118F0040F292 /* network.swift in Sources */,
 				271F576A1F3B6EF70040F292 /* String.swift in Sources */,
+				271F57871F3C84760040F292 /* IUIImageView.swift in Sources */,
 				271F57641F3B6BCD0040F292 /* tableViewFeedViewController.swift in Sources */,
 				271F57751F3C1B920040F292 /* cellCollectionViewSetting.swift in Sources */,
 				271F56F41F3A5C2C0040F292 /* AppDelegate.swift in Sources */,

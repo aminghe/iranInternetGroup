@@ -7,9 +7,7 @@
 //
 
 import ObjectMapper
-
 class FeedModelMapper: Mappable {
-    
     var id: Int?
     var title: String?
     var imageUrl : String?
@@ -19,15 +17,11 @@ class FeedModelMapper: Mappable {
     required init?(map: Map){
         
     }
-    
     func mapping(map: Map) {
-        
         id <- map["id"]
         title <- map["title"]
         imageUrl <- map["imageUrl"]
         description <- map["description"]
         time <- map["time"]
-        
     }
 }
-

@@ -8,20 +8,17 @@
 
 import UIKit
 
-
-
 class FeedViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    
     var data = [FeedModelMapper]()
     var selectedIndex = -1
-
+    var indexPathOld: Int = -1
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.title = "پیشخوان"
+
         
         self.tableView.estimatedRowHeight = 68.0
         self.tableView.rowHeight = UITableViewAutomaticDimension
@@ -34,9 +31,6 @@ class FeedViewController: UIViewController {
         self.data.removeAll()
         self.selectedIndex = -1
         self.tableView.reloadData()
-
-        
-        
         self.request()
     }
     
@@ -45,21 +39,15 @@ class FeedViewController: UIViewController {
         
         let cell: FeedTableViewCell = try(sender as AnyObject).superview!!.superview!.superview as! FeedTableViewCell
         let indexPath = self.tableView.indexPath(for: cell)?.row
-
         // text to share
         let text = "\(self.data[indexPath!].title!) \r\n\r\n \(self.data[indexPath!].description!)"
-        
         // set up activity view controller
         let textToShare = [ text ]
         let activityViewController = UIActivityViewController(activityItems: textToShare, applicationActivities: nil)
         activityViewController.popoverPresentationController?.sourceView = self.view // so that iPads won't crash
-        
         // exclude some activity types from the list (optional)
         activityViewController.excludedActivityTypes = [ UIActivityType.airDrop, UIActivityType.postToFacebook ]
-        
         // present the view controller
         self.present(activityViewController, animated: true, completion: nil)
-
     }
-    
 }
