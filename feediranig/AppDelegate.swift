@@ -8,14 +8,53 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        
+        let config = Config()
+
+        
+//      change Font NavigationBar
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        let colorTextNavigationBar = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.85)
+        // item bar style
+        navigationBarAppearace.tintColor = colorTextNavigationBar
+        
+        // background navigationBar
+        navigationBarAppearace.barTintColor = UIColor(red: 242/255, green: 242/255, blue: 242/255, alpha: 1)
+        
+        if let font = UIFont(name: config.fontName, size: 16) {
+            UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font,NSForegroundColorAttributeName: colorTextNavigationBar]
+        }
+        
+        UIApplication.shared.statusBarStyle = .lightContent
+        UIApplication.shared.statusBarView?.backgroundColor = UIColor.black
+        
+        // UITabBarItem font
+        let appearance = UITabBarItem.appearance()
+        var attributes = [NSFontAttributeName:UIFont(name: config.fontName, size: 10)]
+        appearance.setTitleTextAttributes(attributes as Any as? [String : Any], for: .normal)
+        // barButton
+        let barButton = UIBarButtonItem.appearance()
+        attributes = [NSFontAttributeName:UIFont(name: config.fontName, size: 14)]
+        barButton.setTitleTextAttributes(attributes as Any as? [String : Any], for: .normal)
+        barButton.tintColor = colorTextNavigationBar
+
+        
+//        let Button = UIButton.appearance()
+//        Button.titleLabel?.font = UIFont(name: config.fontName, size: 15)
+
+        
+        
         return true
     }
 
@@ -42,5 +81,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+
+
+extension UIApplication {
+    var statusBarView: UIView? {
+        return value(forKey: "statusBar") as? UIView
+    }
 }
 
