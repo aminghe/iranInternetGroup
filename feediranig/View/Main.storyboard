@@ -43,10 +43,10 @@
                                                     <rect key="frame" x="20" y="15" width="345" height="110"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOw-jz-PRe" userLabel="right">
-                                                            <rect key="frame" x="300.5" y="0.0" width="44.5" height="110"/>
+                                                            <rect key="frame" x="303.5" y="0.0" width="41.5" height="110"/>
                                                             <subviews>
                                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27h-LG-DWh" customClass="themeButton" customModule="feediranig" customModuleProvider="target">
-                                                                    <rect key="frame" x="8" y="76" width="28.5" height="34"/>
+                                                                    <rect key="frame" x="8" y="76" width="25.5" height="34"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="34" id="owF-ME-fct"/>
                                                                     </constraints>
@@ -60,7 +60,7 @@
                                                                     </userDefinedRuntimeAttributes>
                                                                 </button>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="top_copy" translatesAutoresizingMaskIntoConstraints="NO" id="EKr-SX-KqU">
-                                                                    <rect key="frame" x="8" y="8" width="28.5" height="30"/>
+                                                                    <rect key="frame" x="8" y="8" width="25.5" height="30"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="30" id="1Fo-ur-CQ0"/>
                                                                     </constraints>
@@ -69,7 +69,7 @@
                                                                     </userDefinedRuntimeAttributes>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="625" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pww-vS-KUe">
-                                                                    <rect key="frame" x="5" y="40" width="34.5" height="17"/>
+                                                                    <rect key="frame" x="5" y="40" width="31.5" height="17"/>
                                                                     <fontDescription key="fontDescription" name="IRANSansFaNum-Medium" family="IRANSans(FaNum)" pointSize="10"/>
                                                                     <color key="textColor" red="1" green="0.42745098039215684" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -89,10 +89,10 @@
                                                             </constraints>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VHk-Rc-5M3" userLabel="Middle">
-                                                            <rect key="frame" x="111.5" y="0.0" width="189" height="110"/>
+                                                            <rect key="frame" x="111.5" y="0.0" width="192" height="110"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاریخ انتشار + منبع" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nhf-bs-jIw" customClass="labelFont" customModule="feediranig" customModuleProvider="target">
-                                                                    <rect key="frame" x="5" y="85" width="179" height="20"/>
+                                                                    <rect key="frame" x="5" y="85" width="182" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="20" id="JMf-wc-0yU"/>
                                                                     </constraints>
@@ -101,7 +101,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان خبر" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FtP-4F-Z6k">
-                                                                    <rect key="frame" x="5" y="5" width="179" height="80"/>
+                                                                    <rect key="frame" x="5" y="5" width="182" height="80"/>
                                                                     <fontDescription key="fontDescription" name="IRANSansFaNum-Medium" family="IRANSans(FaNum)" pointSize="13"/>
                                                                     <color key="textColor" red="0.18431372549019609" green="0.18431372549019609" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -125,7 +125,7 @@
                                                     <constraints>
                                                         <constraint firstItem="vOw-jz-PRe" firstAttribute="leading" secondItem="VHk-Rc-5M3" secondAttribute="trailing" id="4DW-uk-vo8"/>
                                                         <constraint firstItem="VHk-Rc-5M3" firstAttribute="leading" secondItem="yba-R6-1uM" secondAttribute="trailing" constant="8" id="8Qe-K9-51T"/>
-                                                        <constraint firstItem="vOw-jz-PRe" firstAttribute="width" secondItem="pKl-zB-Pys" secondAttribute="width" multiplier="0.13" id="93m-pq-8YT"/>
+                                                        <constraint firstItem="vOw-jz-PRe" firstAttribute="width" secondItem="pKl-zB-Pys" secondAttribute="width" multiplier="0.12" id="93m-pq-8YT"/>
                                                         <constraint firstItem="yba-R6-1uM" firstAttribute="bottom" secondItem="vOw-jz-PRe" secondAttribute="bottom" id="HrW-aJ-FSJ"/>
                                                         <constraint firstItem="yba-R6-1uM" firstAttribute="leading" secondItem="pKl-zB-Pys" secondAttribute="leading" id="M3a-0K-1BI"/>
                                                         <constraint firstItem="yba-R6-1uM" firstAttribute="top" secondItem="pKl-zB-Pys" secondAttribute="top" id="Rlz-xK-ENi"/>
@@ -142,13 +142,13 @@
                                                     <rect key="frame" x="20" y="133" width="339" height="63"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBS-hD-E5C" customClass="labelFont" customModule="feediranig" customModuleProvider="target">
-                                                            <rect key="frame" x="8" y="8" width="292.5" height="22.5"/>
+                                                            <rect key="frame" x="8" y="8" width="294" height="22.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                             <color key="textColor" red="0.42745098039215684" green="0.42745098039215684" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xw-N1-FZF" customClass="themeButton" customModule="feediranig" customModuleProvider="target">
-                                                            <rect key="frame" x="308.5" y="8" width="29.5" height="34"/>
+                                                            <rect key="frame" x="310" y="8" width="29.5" height="34"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="29.5" id="XNl-1W-5Dk"/>
                                                                 <constraint firstAttribute="height" constant="34" id="yMP-DN-D87"/>
@@ -165,7 +165,7 @@
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DeX-gf-myb">
-                                                            <rect key="frame" x="8" y="30.5" width="292" height="32.5"/>
+                                                            <rect key="frame" x="8" y="30.5" width="293.5" height="32.5"/>
                                                             <fontDescription key="fontDescription" name="IRANSansFaNum-Medium" family="IRANSans(FaNum)" pointSize="11"/>
                                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="3" maxY="0.0"/>
                                                             <state key="normal" title="13232" image="view">
@@ -185,22 +185,35 @@
                                                         <constraint firstItem="DeX-gf-myb" firstAttribute="trailing" secondItem="FBS-hD-E5C" secondAttribute="trailing" id="ru4-2y-vS6"/>
                                                     </constraints>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-Pk-575">
-                                                    <rect key="frame" x="5" y="203" width="365" height="10"/>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qz-Ve-MZh">
+                                                    <rect key="frame" x="0.0" y="203" width="375" height="10"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arc" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-Pk-575">
+                                                            <rect key="frame" x="335" y="0.0" width="20" height="10"/>
+                                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="10" id="3nm-sy-e7y"/>
+                                                                <constraint firstAttribute="width" constant="20" id="EAQ-Bl-4Eh"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.79950433970000001" green="0.38186055419999998" blue="0.35484313960000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="10" id="3nm-sy-e7y"/>
+                                                        <constraint firstAttribute="height" constant="10" id="ZBK-Ya-jFW"/>
+                                                        <constraint firstAttribute="bottom" secondItem="hdY-Pk-575" secondAttribute="bottom" id="mvo-LS-UXm"/>
                                                     </constraints>
-                                                </imageView>
+                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="hdY-Pk-575" secondAttribute="trailing" constant="5" id="EpY-zH-V3Q"/>
                                                 <constraint firstItem="X1v-CK-eyu" firstAttribute="top" secondItem="pKl-zB-Pys" secondAttribute="bottom" constant="8" id="GdT-br-EEo"/>
-                                                <constraint firstAttribute="bottom" secondItem="hdY-Pk-575" secondAttribute="bottom" id="IeF-PN-v7Z"/>
                                                 <constraint firstItem="pKl-zB-Pys" firstAttribute="top" secondItem="Poa-y8-gij" secondAttribute="top" constant="15" id="Jt9-dN-2dc"/>
                                                 <constraint firstItem="2xw-N1-FZF" firstAttribute="centerX" secondItem="27h-LG-DWh" secondAttribute="centerX" id="MQK-jY-HEr"/>
+                                                <constraint firstItem="hdY-Pk-575" firstAttribute="centerX" secondItem="2xw-N1-FZF" secondAttribute="centerX" id="VYc-Sy-Ska"/>
+                                                <constraint firstAttribute="bottom" secondItem="9qz-Ve-MZh" secondAttribute="bottom" id="W2r-W4-uBI"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="X1v-CK-eyu" secondAttribute="trailing" constant="8" id="cBO-Qd-iuY"/>
+                                                <constraint firstItem="9qz-Ve-MZh" firstAttribute="leading" secondItem="Poa-y8-gij" secondAttribute="leading" id="cO6-BA-CTC"/>
+                                                <constraint firstAttribute="trailing" secondItem="9qz-Ve-MZh" secondAttribute="trailing" id="d4W-8L-SJK"/>
                                                 <constraint firstItem="pKl-zB-Pys" firstAttribute="leading" secondItem="Poa-y8-gij" secondAttribute="leading" constant="20" id="f80-ok-W98"/>
-                                                <constraint firstItem="hdY-Pk-575" firstAttribute="leading" secondItem="Poa-y8-gij" secondAttribute="leading" constant="5" id="kGY-np-dUc"/>
                                                 <constraint firstAttribute="trailing" secondItem="pKl-zB-Pys" secondAttribute="trailing" constant="10" id="pVq-GT-sdb"/>
                                                 <constraint firstItem="X1v-CK-eyu" firstAttribute="leading" secondItem="Poa-y8-gij" secondAttribute="leading" constant="20" id="ywo-c9-856"/>
                                             </constraints>
@@ -212,6 +225,7 @@
                                             <outlet property="Title" destination="FtP-4F-Z6k" id="iN0-iW-nVs"/>
                                             <outlet property="containerdes" destination="X1v-CK-eyu" id="wTC-rp-KjD"/>
                                             <outlet property="desc" destination="FBS-hD-E5C" id="zhO-Fy-Lqe"/>
+                                            <outlet property="lineConteiner" destination="9qz-Ve-MZh" id="fOB-VL-n19"/>
                                             <outlet property="lineExtend" destination="hdY-Pk-575" id="0sc-LT-xPp"/>
                                         </connections>
                                     </tableViewCell>
@@ -422,12 +436,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arc" width="59" height="28"/>
         <image name="bookmark" width="22" height="28"/>
         <image name="bookmarked" width="87" height="87"/>
         <image name="feedSetting" width="87" height="87"/>
         <image name="ic_menu" width="24" height="24"/>
         <image name="ic_refresh" width="24" height="24"/>
-        <image name="line" width="540" height="10"/>
         <image name="share" width="25" height="28"/>
         <image name="tags_line_below" width="174" height="1"/>
         <image name="top_copy" width="46" height="46"/>

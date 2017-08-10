@@ -8,8 +8,5 @@
 
 import Foundation
 class Config {
-    
     var fontName : String = "IRANSansFaNum-Medium"
-
-    
 }

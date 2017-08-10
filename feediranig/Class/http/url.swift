@@ -8,9 +8,7 @@
 
 import Foundation
 class Urls {
-    
     let base : String = "http://198.143.181.70:8090/"
-    
     func news() -> String {
         return base + "news"
     }

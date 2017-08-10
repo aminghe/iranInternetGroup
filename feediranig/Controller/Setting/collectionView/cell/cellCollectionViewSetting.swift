@@ -9,8 +9,5 @@
 import UIKit
 
 class cellCollectionViewSetting : UICollectionViewCell{
-
     @IBOutlet weak var category: labelFont!
-    
-    
 }

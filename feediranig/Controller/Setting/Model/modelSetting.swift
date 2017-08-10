@@ -11,6 +11,4 @@ import UIKit
 class ModelSetting {
     var title : String?
     var id : Int?
-    
-    
 }

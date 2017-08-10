@@ -35,13 +35,7 @@ import UIKit
     }
     override public func layoutSubviews() {
         super.layoutSubviews()
-        
-        
-//        layer.backgroundColor = color?.cgColor
-        //setTitleColor(UIColor.white, for: .normal)
-        
         //height
         titleLabel!.font =  UIFont(name: Config().fontName, size: (titleLabel?.font.pointSize)!)
-        
     }
 }
