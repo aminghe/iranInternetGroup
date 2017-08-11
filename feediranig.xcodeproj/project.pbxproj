@@ -458,7 +458,7 @@
 				TargetAttributes = {
 					271F56EF1F3A5C2C0040F292 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = NEN3MXJ8D5;
+						DevelopmentTeam = CB4274RKX7;
 						ProvisioningStyle = Automatic;
 					};
 					271F57031F3A5C2C0040F292 = {
@@ -824,7 +824,7 @@
 			baseConfigurationReference = 5171E3961B4A3CE25B1A85BE /* Pods-feediranig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NEN3MXJ8D5;
+				DEVELOPMENT_TEAM = CB4274RKX7;
 				INFOPLIST_FILE = feediranig/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -839,7 +839,7 @@
 			baseConfigurationReference = 21BC20BFAC30E18A843A3852 /* Pods-feediranig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = NEN3MXJ8D5;
+				DEVELOPMENT_TEAM = CB4274RKX7;
 				INFOPLIST_FILE = feediranig/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
