@@ -17,7 +17,9 @@ class SettingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // خواندن اطلاعات ذخیره شده دسته بندی ها
         category = Coredata().readCategory(key: categoryKey)
+        // مقدار دهی دسته بندی ها
         self.title = "تنظیمات"
         let d1 = ModelSetting()
         d1.id = 1; d1.title = "ورزشی"
@@ -41,9 +43,11 @@ class SettingViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(mainFeed(tapGestureRecognizer:)))
         self.feedPage.addGestureRecognizer(tap)
     }
+    // کلیک روی دکمه پیش خوان
     func mainFeed(tapGestureRecognizer: UITapGestureRecognizer){
         self.navigationController?.popViewController(animated: true)
     }
+    // موقع خروج از تنظیمات - تغییرات مربوط به صفحه ذخیره میشود
     override func viewDidDisappear(_ animated: Bool) {
         Coredata().save(value: self.category, key: categoryKey)
     }

@@ -19,6 +19,7 @@ extension SettingViewController : UICollectionViewDataSource,UICollectionViewDel
         let index = indexPath.row
         let id = self.data[indexPath.row].id
         let location = self.category.index(of: id!)
+        // در صورت انتخاب شدن از قبل دکمه مورد نطر به صورت انتخاب در می آید
         if(location != nil){
             // exist
             cell.category.backgroundColor = UIColor.init(rgb: 0x828789)
@@ -29,6 +30,8 @@ extension SettingViewController : UICollectionViewDataSource,UICollectionViewDel
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let currentCell = self.collectionView.cellForItem(at: indexPath) as! cellCollectionViewSetting
+        
+        // زمانی که روی دکمه های دسته بندی کلیک کرد بر اساس رنگ تشخیص داده میشود که کلیک خورده یا نه و داخل آرایه ذخیره و یا حذف میشود
         if(currentCell.category.backgroundColor == UIColor.init(rgb: 0x828789)){
             let id = self.data[indexPath.row].id
             let location = self.category.index(of: id!)
