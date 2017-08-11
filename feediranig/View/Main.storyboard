@@ -421,7 +421,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PNy-uc-VXS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="64J-Vz-cu2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="64J-Vz-cu2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
